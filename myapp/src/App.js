@@ -1,7 +1,8 @@
-import './App.css';
-import Greet, { Greet1 } from './components/Greet';
-import Hello from './components/Hello';
-import Welcome from './components/Welcome';
+import "./App.css";
+import Greet, { Greet1 } from "./components/Greet";
+import Hello from "./components/Hello";
+import Message from "./components/Message";
+import Welcome from "./components/Welcome";
 
 function App() {
   return (
@@ -11,7 +12,28 @@ function App() {
         {/* <Greet1 /> <!-- Functional Component -->
         <Greet /><!-- Functional Component -->
         <Welcome /> <!-- Class Component --> */}
-        <Hello />
+        {/* <Hello /> */}
+        {/* <Greet name="Deneshwara" heroName="Spiderman">
+          <p> This is children props </p>
+        </Greet>
+        <Greet name="Sai" heroName="batman">
+          <button> Click me </button>
+        </Greet>
+        <Greet name="Ila" heroName="DC">
+          <input type="text"></input>
+        </Greet>
+
+        <Welcome name="Dineshwara" heroName="Spiderman">
+          <button> Click me </button>
+        </Welcome>
+        <Welcome name="Sai" heroName="batman">
+          <p> This is children props </p>
+        </Welcome>
+        <Welcome name="Ila" heroName="DC">
+          <input type="text" placeholder="Search for animals"></input>
+        </Welcome> */}
+        {/* USE OF STATE */}
+        <Message></Message>
       </header>
     </div>
   );
