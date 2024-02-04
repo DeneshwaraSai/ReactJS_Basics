@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./components/Counter";
 import Greet, { Greet1 } from "./components/Greet";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
@@ -33,7 +34,9 @@ function App() {
           <input type="text" placeholder="Search for animals"></input>
         </Welcome> */}
         {/* USE OF STATE */}
-        <Message></Message>
+        {/* <Message></Message> */}
+        {/* setState */}
+        <Counter></Counter>
       </header>
     </div>
   );
