@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./components/Counter";
+import EventBind from "./components/EventBind";
 import Greet, { Greet1 } from "./components/Greet";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
@@ -35,8 +36,9 @@ function App() {
         </Welcome> */}
         {/* USE OF STATE */}
         {/* <Message></Message> */}
-        {/* setState */}
-        <Counter></Counter>
+        {/* setState 
+        <Counter></Counter> */}
+        <EventBind></EventBind>
       </header>
     </div>
   );
