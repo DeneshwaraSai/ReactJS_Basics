@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ChldComponent from "./ChldComponent";
+import ChldComponent from "./ChildComponent";
 
 class ParentComponent extends Component {
   constructor(props) {
