@@ -1,4 +1,5 @@
 import "./App.css";
+import ConditionalRendering from "./components/ConditionalRendering";
 import Counter from "./components/Counter";
 import EventBind from "./components/EventBind";
 import Greet, { Greet1 } from "./components/Greet";
@@ -40,7 +41,9 @@ function App() {
         {/* setState 
         <Counter></Counter> */}
         {/* <EventBind></EventBind> */}
-        <ParentComponent></ParentComponent>
+        {/* <ParentComponent></ParentComponent> */}
+
+        <ConditionalRendering></ConditionalRendering>
       </header>
     </div>
   );
