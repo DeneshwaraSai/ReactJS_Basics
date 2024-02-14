@@ -5,6 +5,7 @@ import EventBind from "./components/EventBind";
 import Greet, { Greet1 } from "./components/Greet";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
+import NameList from "./components/NameList";
 import ParentComponent from "./components/ParentComponent";
 import Welcome from "./components/Welcome";
 
@@ -42,8 +43,9 @@ function App() {
         <Counter></Counter> */}
         {/* <EventBind></EventBind> */}
         {/* <ParentComponent></ParentComponent> */}
-
-        <ConditionalRendering></ConditionalRendering>
+        {/* <ConditionalRendering></ConditionalRendering> */}
+        
+        <NameList></NameList>
       </header>
     </div>
   );
