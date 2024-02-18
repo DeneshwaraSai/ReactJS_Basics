@@ -8,6 +8,8 @@ import Message from "./components/Message";
 import NameList from "./components/NameList";
 import ParentComponent from "./components/ParentComponent";
 import Welcome from "./components/Welcome";
+import "./appStyle.css";
+import styles from './appStyle.module.css';
 
 function App() {
   return (
@@ -45,7 +47,13 @@ function App() {
         {/* <ParentComponent></ParentComponent> */}
         {/* <ConditionalRendering></ConditionalRendering> */}
         
-        <NameList></NameList>
+        {/* <NameList></NameList> */}
+
+        <h1> Testing CSS </h1>
+
+        <h3 className="error"> Testing CSS FILE </h3>
+
+        <h3 className={styles.success}> Testing CSS using module </h3>
       </header>
     </div>
   );
