@@ -10,6 +10,7 @@ import ParentComponent from "./components/ParentComponent";
 import Welcome from "./components/Welcome";
 import "./appStyle.css";
 import styles from './appStyle.module.css';
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -49,11 +50,13 @@ function App() {
         
         {/* <NameList></NameList> */}
 
-        <h1> Testing CSS </h1>
+        {/* <h1> Testing CSS </h1>
 
         <h3 className="error"> Testing CSS FILE </h3>
 
-        <h3 className={styles.success}> Testing CSS using module </h3>
+        <h3 className={styles.success}> Testing CSS using module </h3> */}
+
+        <Form></Form>
       </header>
     </div>
   );
