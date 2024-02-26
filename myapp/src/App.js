@@ -11,6 +11,8 @@ import Welcome from "./components/Welcome";
 import "./appStyle.css";
 import styles from './appStyle.module.css';
 import Form from "./components/Form";
+import LifeCycleA from "./components/LifeCycle/LifeCycleA";
+import LifeCycleB from "./components/LifeCycle/LifeCycleB";
 
 function App() {
   return (
@@ -56,7 +58,9 @@ function App() {
 
         <h3 className={styles.success}> Testing CSS using module </h3> */}
 
-        <Form></Form>
+        {/* <Form></Form> */}
+
+        <LifeCycleA></LifeCycleA>
       </header>
     </div>
   );
