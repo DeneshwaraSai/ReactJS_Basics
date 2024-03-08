@@ -16,7 +16,8 @@ import LifeCycleB from './components/UpdateLifeCycle/LifeCycleB';
 import FragmentDemo from "./components/Fragments/FragmentDemo";
 import Table from "./components/Fragments/Table";
 import PureComp from "./components/PureComponnet/PureComp";
-import ParentComp from "./components/PureComponnet/ParentComp";
+import ParentComp from "./components/Memo/ParentComp";
+// import ParentComp from "./components/PureComponnet/ParentComp";
 
 // import LifeCycleA from "./components/LifeCycle/LifeCycleA";
 // import LifeCycleB from "./components/LifeCycle/LifeCycleB";
@@ -73,7 +74,7 @@ function App() {
         {/* <FragmentDemo></FragmentDemo>
         <Table></Table> */}
 
-
+        {/* <ParentComp></ParentComp> */}
         <ParentComp></ParentComp>
       </header>
     </div>
