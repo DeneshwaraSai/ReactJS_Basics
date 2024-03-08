@@ -13,6 +13,8 @@ import styles from './appStyle.module.css';
 import Form from "./components/Form";
 import LifeCycleA from './components/UpdateLifeCycle/LifeCycleA';
 import LifeCycleB from './components/UpdateLifeCycle/LifeCycleB';
+import FragmentDemo from "./components/Fragments/FragmentDemo";
+import Table from "./components/Fragments/Table";
 
 // import LifeCycleA from "./components/LifeCycle/LifeCycleA";
 // import LifeCycleB from "./components/LifeCycle/LifeCycleB";
@@ -64,8 +66,10 @@ function App() {
         {/* <Form></Form> */}
 
         {/* <LifeCycleA></LifeCycleA> // component mounting lifecycle methods */}
-        <LifeCycleA></LifeCycleA>
+        {/* <LifeCycleA></LifeCycleA> */}
         
+        <FragmentDemo></FragmentDemo>
+        <Table></Table>
       </header>
     </div>
   );
