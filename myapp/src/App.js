@@ -15,6 +15,8 @@ import LifeCycleA from './components/UpdateLifeCycle/LifeCycleA';
 import LifeCycleB from './components/UpdateLifeCycle/LifeCycleB';
 import FragmentDemo from "./components/Fragments/FragmentDemo";
 import Table from "./components/Fragments/Table";
+import PureComp from "./components/PureComponnet/PureComp";
+import ParentComp from "./components/PureComponnet/ParentComp";
 
 // import LifeCycleA from "./components/LifeCycle/LifeCycleA";
 // import LifeCycleB from "./components/LifeCycle/LifeCycleB";
@@ -68,8 +70,11 @@ function App() {
         {/* <LifeCycleA></LifeCycleA> // component mounting lifecycle methods */}
         {/* <LifeCycleA></LifeCycleA> */}
         
-        <FragmentDemo></FragmentDemo>
-        <Table></Table>
+        {/* <FragmentDemo></FragmentDemo>
+        <Table></Table> */}
+
+
+        <ParentComp></ParentComp>
       </header>
     </div>
   );
