@@ -11,8 +11,11 @@ import Welcome from "./components/Welcome";
 import "./appStyle.css";
 import styles from './appStyle.module.css';
 import Form from "./components/Form";
-import LifeCycleA from "./components/LifeCycle/LifeCycleA";
-import LifeCycleB from "./components/LifeCycle/LifeCycleB";
+import LifeCycleA from './components/UpdateLifeCycle/LifeCycleA';
+import LifeCycleB from './components/UpdateLifeCycle/LifeCycleB';
+
+// import LifeCycleA from "./components/LifeCycle/LifeCycleA";
+// import LifeCycleB from "./components/LifeCycle/LifeCycleB";
 
 function App() {
   return (
@@ -60,7 +63,9 @@ function App() {
 
         {/* <Form></Form> */}
 
+        {/* <LifeCycleA></LifeCycleA> // component mounting lifecycle methods */}
         <LifeCycleA></LifeCycleA>
+        
       </header>
     </div>
   );
