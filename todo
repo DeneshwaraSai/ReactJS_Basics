@@ -10,3 +10,5 @@ lsof -i tcp:3000
 
 
 /Users/denesh/Desktop/IIT Chicago/Sem 1/CC/Key pairs/KP_JAN_31.pem
+
+sudo chmod -R g+rwX - When getting permission issues, use this

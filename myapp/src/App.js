@@ -20,6 +20,7 @@ import ParentComp from "./components/Memo/ParentComp";
 import RefsDemo from "./components/Refs/RefsDemo";
 import InputRef from "./components/Refs/InputRef";
 import FocusInput from "./components/Refs/FocusInput";
+import FRParentInput from "./components/ForwardingRefs/FRParentInput";
 // import ParentComp from "./components/PureComponnet/ParentComp";
 
 // import LifeCycleA from "./components/LifeCycle/LifeCycleA";
@@ -55,8 +56,7 @@ function App() {
         </Welcome> */}
         {/* USE OF STATE */}
         {/* <Message></Message> */}
-        {/* setState 
-        <Counter></Counter> */}
+        {/* setState <Counter></Counter> */}
         {/* <EventBind></EventBind> */}
         {/* <ParentComponent></ParentComponent> */}
         {/* <ConditionalRendering></ConditionalRendering> */}
@@ -82,7 +82,9 @@ function App() {
 
         {/* <RefsDemo></RefsDemo> Function Ref */}
         
-        <FocusInput></FocusInput>
+        {/* <FocusInput></FocusInput> */}
+        
+        <FRParentInput />
       </header>
     </div>
   );
