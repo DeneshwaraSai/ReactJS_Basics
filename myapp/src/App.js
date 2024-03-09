@@ -17,6 +17,9 @@ import FragmentDemo from "./components/Fragments/FragmentDemo";
 import Table from "./components/Fragments/Table";
 import PureComp from "./components/PureComponnet/PureComp";
 import ParentComp from "./components/Memo/ParentComp";
+import RefsDemo from "./components/Refs/RefsDemo";
+import InputRef from "./components/Refs/InputRef";
+import FocusInput from "./components/Refs/FocusInput";
 // import ParentComp from "./components/PureComponnet/ParentComp";
 
 // import LifeCycleA from "./components/LifeCycle/LifeCycleA";
@@ -74,8 +77,12 @@ function App() {
         {/* <FragmentDemo></FragmentDemo>
         <Table></Table> */}
 
-        {/* <ParentComp></ParentComp> */}
-        <ParentComp></ParentComp>
+        {/* <ParentComp></ParentComp> Pure Components */}
+        {/* <ParentComp></ParentComp>  Memos */}
+
+        {/* <RefsDemo></RefsDemo> Function Ref */}
+        
+        <FocusInput></FocusInput>
       </header>
     </div>
   );
