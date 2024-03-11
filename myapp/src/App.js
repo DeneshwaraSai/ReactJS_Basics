@@ -9,10 +9,10 @@ import NameList from "./components/NameList";
 import ParentComponent from "./components/ParentComponent";
 import Welcome from "./components/Welcome";
 import "./appStyle.css";
-import styles from './appStyle.module.css';
+import styles from "./appStyle.module.css";
 import Form from "./components/Form";
-import LifeCycleA from './components/UpdateLifeCycle/LifeCycleA';
-import LifeCycleB from './components/UpdateLifeCycle/LifeCycleB';
+import LifeCycleA from "./components/UpdateLifeCycle/LifeCycleA";
+import LifeCycleB from "./components/UpdateLifeCycle/LifeCycleB";
 import FragmentDemo from "./components/Fragments/FragmentDemo";
 import Table from "./components/Fragments/Table";
 import PureComp from "./components/PureComponnet/PureComp";
@@ -22,6 +22,8 @@ import InputRef from "./components/Refs/InputRef";
 import FocusInput from "./components/Refs/FocusInput";
 import FRParentInput from "./components/ForwardingRefs/FRParentInput";
 import PortalDemo from "./components/Portals/PortalDemo";
+import Hero from "./components/Errors/Hero";
+import ErrorBoundary from "./components/Errors/ErrorBoundary";
 // import ParentComp from "./components/PureComponnet/ParentComp";
 
 // import LifeCycleA from "./components/LifeCycle/LifeCycleA";
@@ -61,7 +63,7 @@ function App() {
         {/* <EventBind></EventBind> */}
         {/* <ParentComponent></ParentComponent> */}
         {/* <ConditionalRendering></ConditionalRendering> */}
-        
+
         {/* <NameList></NameList> */}
 
         {/* <h1> Testing CSS </h1>
@@ -74,7 +76,7 @@ function App() {
 
         {/* <LifeCycleA></LifeCycleA> // component mounting lifecycle methods */}
         {/* <LifeCycleA></LifeCycleA> */}
-        
+
         {/* <FragmentDemo></FragmentDemo>
         <Table></Table> */}
 
@@ -82,11 +84,23 @@ function App() {
         {/* <ParentComp></ParentComp>  Memos */}
 
         {/* <RefsDemo></RefsDemo> Function Ref */}
-        
+
         {/* <FocusInput></FocusInput> */}
-        
+
         {/* <FRParentInput /> */}
-        <PortalDemo></PortalDemo>
+        {/* <PortalDemo></PortalDemo> */}
+
+        <ErrorBoundary>
+          <Hero heroName="SpiderMan"></Hero>
+        </ErrorBoundary>
+
+        <ErrorBoundary>
+          <Hero heroName="Joker"></Hero>
+        </ErrorBoundary>
+
+        <ErrorBoundary>
+          <Hero heroName="Batman"></Hero>
+        </ErrorBoundary>
       </header>
     </div>
   );
