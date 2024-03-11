@@ -21,6 +21,7 @@ import RefsDemo from "./components/Refs/RefsDemo";
 import InputRef from "./components/Refs/InputRef";
 import FocusInput from "./components/Refs/FocusInput";
 import FRParentInput from "./components/ForwardingRefs/FRParentInput";
+import PortalDemo from "./components/Portals/PortalDemo";
 // import ParentComp from "./components/PureComponnet/ParentComp";
 
 // import LifeCycleA from "./components/LifeCycle/LifeCycleA";
@@ -84,7 +85,8 @@ function App() {
         
         {/* <FocusInput></FocusInput> */}
         
-        <FRParentInput />
+        {/* <FRParentInput /> */}
+        <PortalDemo></PortalDemo>
       </header>
     </div>
   );
